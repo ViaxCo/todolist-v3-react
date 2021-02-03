@@ -2,6 +2,8 @@
 
 This app lets you create various todo lists with their individual items, built using React and Node.js.
 
+The `main` branch contains the exact project, but it uses [Redux](https://redux.js.org/) instead of the [Context API](https://reactjs.org/docs/context.html) for state management.
+
 ## How to use
 
 Clone the project:
