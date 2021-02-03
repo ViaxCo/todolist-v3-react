@@ -90,7 +90,7 @@ export const addListItem = async (req: Request, res: Response) => {
     foundList.items.push(item);
     await foundList.save();
     return res.status(201).json({
-      items: foundList.items,
+      item,
     });
   } catch (err) {
     console.log(err.message);
